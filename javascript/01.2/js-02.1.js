@@ -14,7 +14,7 @@ document.write(`${tipo}`);
 // O valor de uma variável pode mudar de tipo.
 
 // ARROW FUNCTION  (função anônima) apenas 1 parâmetro e podendo ser sem parênteses
-const dobro = (x) => {
+const dobro = (x) => {  //mais de 1 parametro sempre aspas
   return x * 2;
 };
 document.write(`<p>O dobro do número é ${dobro(900)}.</p>`)
